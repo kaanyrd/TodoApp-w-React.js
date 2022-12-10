@@ -1,10 +1,22 @@
-import './App.css';
+import Header from "./components/Header/Header";
+import Content from "./components/Content/Content";
+import ContentFooter from "./components/ContentFooter/ContentFooter";
+import Footer from "./components/Footer/Footer";
+import { TodoProvider } from "./context/TodoContext";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <TodoProvider>
+      <section className="todoapp">
+        <Header />
+        <Content />
+        <ContentFooter />
+      </section>
+      <Footer />
+    </TodoProvider>
   );
 }
 
