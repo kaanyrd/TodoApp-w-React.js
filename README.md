@@ -1,4 +1,4 @@
 # TodoApp-w-React.js
-I created a TodoApp with React.js. I can work on it maybe modify to looking more good. It's working %100 functionality.
+## I created a TodoApp with React.js. I can work on it maybe modify to looking more good. It's working %100 functionality.
 
-![2](https://user-images.githubusercontent.com/59180837/206900745-3013ea60-b161-4c8f-842a-1f2384af4449.JPG)
+![1](https://user-images.githubusercontent.com/59180837/206901284-1d9ed783-f6ad-4b4f-8769-00a9f031947e.JPG)
