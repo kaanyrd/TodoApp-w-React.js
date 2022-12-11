@@ -1,3 +1,5 @@
+// THERE ARE FILTERS FOR TODOS
+
 import React from 'react'
 import {useTodo} from "../../context/TodoContext"
 

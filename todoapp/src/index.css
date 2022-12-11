@@ -1,4 +1,5 @@
 /* index.css */
+/* CSS WAS READY IN REACT.JS DOCUMENTATION */
 html,
 body {
 	margin: 0;
@@ -439,6 +440,9 @@ meta,
 	transition: 1s;
 } */
 
+
+
+/* CHANGE THEME BUTTON STARTED*/
 .button-80 {
 	margin-left: 35%;
 	background: #4d4d4d;
@@ -499,3 +503,4 @@ meta,
   .button-80:not(:disabled):active {
 	transform: translateY(.125rem);
   }
+  /* CHANGE THEME BUTTON FINISHED */

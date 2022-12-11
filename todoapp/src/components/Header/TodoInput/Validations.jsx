@@ -1,3 +1,5 @@
+// VALITDATIONS FOR FORM
+
 import {object, string} from "yup"
 
 const Validations = object({

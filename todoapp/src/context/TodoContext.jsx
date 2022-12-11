@@ -1,3 +1,7 @@
+// TODO CONTEXT 
+// THERE ARE STATES AND OTHER FUNCTIONS
+
+
 import { useContext } from "react";
 import { useState } from "react";
 import { createContext } from "react";

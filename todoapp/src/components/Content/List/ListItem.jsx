@@ -1,3 +1,6 @@
+// THERE IS FILTER FUNCTIONS
+
+
 import React from 'react'
 import { useTodo } from '../../../context/TodoContext'
 

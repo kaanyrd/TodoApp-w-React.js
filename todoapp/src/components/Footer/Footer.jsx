@@ -1,3 +1,5 @@
+// THERE ARE LINKS IN THE FOOTER SIDE
+
 import React from 'react'
 
 function Footer() {
