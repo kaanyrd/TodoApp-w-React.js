@@ -1,22 +1,17 @@
-import Header from "./components/Header/Header";
-import Content from "./components/Content/Content";
-import ContentFooter from "./components/ContentFooter/ContentFooter";
-import Footer from "./components/Footer/Footer";
 import { TodoProvider } from "./context/TodoContext";
-
+import { ThemeProvider } from "./context/ThemeContext";
+import Container from "./components/Container";
+import "./App.css"
 
 
 
 function App() {
   return (
-    <TodoProvider>
-      <section className="todoapp">
-        <Header />
-        <Content />
-        <ContentFooter />
-      </section>
-      <Footer />
-    </TodoProvider>
+    <ThemeProvider>
+      <TodoProvider>
+        <Container></Container>
+      </TodoProvider>
+    </ThemeProvider>
   );
 }
 
