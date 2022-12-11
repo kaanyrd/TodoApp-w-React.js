@@ -5,7 +5,7 @@ function Header() {
     return (
         <div>
             <header className="header">
-                <h1>My Todo's</h1>
+                <h1 style={{color:"tomato"}}>My Todo's</h1>
                 <NewTodo />
             </header>
         </div>
