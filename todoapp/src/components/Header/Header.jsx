@@ -5,7 +5,7 @@ function Header() {
     return (
         <div>
             <header className="header">
-                <h1>todos</h1>
+                <h1>My Todo's</h1>
                 <NewTodo />
             </header>
         </div>

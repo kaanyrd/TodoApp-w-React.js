@@ -4,9 +4,11 @@ function Footer() {
     return (
         <div>
             <footer className="info">
-                <p>Click to edit a todo</p>
-                <p>Created by <a href="https://d12n.me/">Dmitry Sharabin</a></p>
-                <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+                <p><em>for my /</em><a target="_blank" style={{color:"black"}} href="https://github.com/kaanyrd"><em><strong> GitHub</strong></em></a></p>
+                <em>
+                <p>mail to /<a href="mailto:kaan.yardimci@yahoo.com.tr?subject=Hello%20Kaan%20Yardımcı%20!" style={{color: "gray"}}> <strong>Kaan Yardımcı</strong></a></p>
+                </em>
+                <p><em>for my /</em> <a style={{color: "blue"}} href="https://www.linkedin.com/in/kaanyardimci/" target="_blank"><strong> <em>LinkedIn</em></strong></a></p>
             </footer>
         </div>
     )
